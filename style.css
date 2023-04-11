@@ -1,0 +1,38 @@
+#stopwatch {
+    margin: 50px 0 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: lightpink
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #696969;
+}
+
+#start {
+    background-color: #3cb371;
+}
+
+#start.stop {
+    background-color: #ff3300;
+}
