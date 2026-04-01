@@ -11,7 +11,7 @@ let elapsedMs = 0;
 function timeToString(millis) {
     const ms = millis % 1000; // ミリ秒
     const s = Math.floor(millis / 1000) % 60;
-    const m = Math.floor(millis / 1000 / 60) % 60;
+    const m = Math.floor(millis / 1000 / 60);
 
     const formattedMs = ms.toString().padStart(3, '0');
     const formattedS = s.toString().padStart(2, '0');
